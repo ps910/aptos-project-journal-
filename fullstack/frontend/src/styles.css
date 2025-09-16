@@ -1,0 +1,60 @@
+body { font-family: Arial, sans-serif; background: #f6f8fa; padding: 24px }
+.container { max-width: 800px; margin: 0 auto }
+.card { background: white; padding: 12px; border-radius: 6px; margin-bottom: 12px }
+input, textarea { width: 100%; padding: 8px; margin-bottom: 8px }
+.idea { border-left: 4px solid #0b5cff }
+.meta { display:flex; justify-content:space-between; align-items:center }
+button { padding: 6px 12px }
+
+:root {
+  --primary: #6366f1;
+  --background: #f8fafc;
+  --text: #1e293b;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0;
+}
+
+.welcome-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--text);
+  padding: 2rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+}
