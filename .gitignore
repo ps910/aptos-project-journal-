@@ -1,2 +1,95 @@
+# Aptos specific
 .aptos/
 build/
+.traced/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+yarn.lock
+package-lock.json
+
+# Testing
+/coverage
+.nyc_output/
+
+# Production
+/dist
+/build
+/out
+
+# Development
+*.log
+.cache/
+.temp/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Compiled output
+*.js.map
+*.css.map
+*.d.ts.map
+
+# Move/Aptos specific
+*.mv
+!Move.toml
+
+# Local development
+local.settings.json
+.local/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# IDE specific
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
